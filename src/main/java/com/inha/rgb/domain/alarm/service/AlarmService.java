@@ -17,12 +17,21 @@ public class AlarmService {
 
     @Transactional
     public AlarmResponseDto saveAlarm(AlarmRequestDto alarmRequestDto){
+        //MongoDB에 저장한 instance 생성
         AlarmDocument alarmDocument = AlarmDocument.builder()
                 .trashType(alarmRequestDto.getTrashType())
                 .capacity(alarmRequestDto.getCapacity()).
                 build();
+        //MongoDB 저장
         AlarmDocument savedDocument = alarmRepository.save(alarmDocument);
-        log.info("saved alarmDocument : {}", savedDocument);
+
+        //Log
+        log.info("saved alarmDocument, id = {}, trashType = {}, capacity = {}"
+                ,savedDocument.getId()
+                ,savedDocument.getTrashType()
+                ,savedDocument.getCapacity());
+
+        //FE에게 전단할 DTO 생성 후, 리턴
         AlarmResponseDto alarmResponseDto = new AlarmResponseDto();
         alarmResponseDto.setId(alarmResponseDto.getId());
         return alarmResponseDto;
