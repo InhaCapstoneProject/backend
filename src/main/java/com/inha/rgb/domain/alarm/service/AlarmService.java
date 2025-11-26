@@ -33,7 +33,7 @@ public class AlarmService {
 
         //FE에게 전단할 DTO 생성 후, 리턴
         AlarmResponseDto alarmResponseDto = new AlarmResponseDto();
-        alarmResponseDto.setId(alarmResponseDto.getId());
+        alarmResponseDto.setId(savedDocument.getId());
         return alarmResponseDto;
     }
 }

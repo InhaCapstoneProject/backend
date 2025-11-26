@@ -4,8 +4,12 @@ import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.time.LocalDateTime;
+
 
 @Document(collection = "alarm")
 @Getter
@@ -19,6 +23,8 @@ public class AlarmDocument {
 
     private Float capacity;
 
+    @CreatedDate
+    private LocalDateTime createdAt; // 알림이 생선된 날짜, UTC
     @Builder
     private AlarmDocument(String trashType, Float capacity) {
         this.trashType = trashType;

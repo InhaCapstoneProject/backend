@@ -22,8 +22,8 @@ public class AlarmController {
     @ApiResponse(responseCode = "201", description = "저장 성공")
     @PostMapping(value = "/save")
     @ResponseStatus(HttpStatus.CREATED)
-    public ResponseEntity<AlarmResponseDto> saveAlarm(@RequestBody AlarmRequestDto requestDto){
+    public ResponseEntity<AlarmResponseDto> alertAlarm(@RequestBody AlarmRequestDto requestDto){
         AlarmResponseDto alarmResponseDto = alarmService.saveAlarm(requestDto);
-        return ResponseEntity.ok(alarmResponseDto);
+        return ResponseEntity.created(null).body(alarmResponseDto);
     }
 }
