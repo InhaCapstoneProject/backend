@@ -32,6 +32,9 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'//MongoDB 의존성
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2' //swaggerUI 의존성
+    implementation 'com.google.firebase:firebase-admin:9.2.0' //Push 알림을 위한  Firebase 의존성
+    implementation 'com.google.guava:guava:33.2.0-jre'
+
 }
 
 tasks.named('test') {
