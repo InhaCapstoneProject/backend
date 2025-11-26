@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "alarms")
+@Document(collection = "alarm")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class AlarmDocument {

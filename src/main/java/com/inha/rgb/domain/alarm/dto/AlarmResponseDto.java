@@ -1,0 +1,10 @@
+package com.inha.rgb.domain.alarm.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class AlarmResponseDto {
+    private Long id;
+}
