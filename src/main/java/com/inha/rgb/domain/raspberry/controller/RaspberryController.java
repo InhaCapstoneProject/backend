@@ -1,7 +1,6 @@
 package com.inha.rgb.domain.raspberry.controller;
 
 import com.inha.rgb.domain.raspberry.service.RaspberryService;
-import com.inha.rgb.domain.video.service.VideoService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
