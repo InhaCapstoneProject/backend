@@ -1,11 +1,13 @@
 package com.inha.rgb.domain.raspberry.controller;
 
+import com.inha.rgb.domain.garbage.dto.GarbageResponseDto;
 import com.inha.rgb.domain.raspberry.service.RaspberryService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,6 +31,12 @@ public class RaspberryController {
         return outputStream -> {
             raspberryService.streamVideo(outputStream);
         };
+    }
+
+    @GetMapping("/garbage/capacity")
+    public ResponseEntity<GarbageResponseDto> getCapacity(){
+        GarbageResponseDto garbageResponseDto = raspberryService.getCapacity();
+        return ResponseEntity.ok().body(garbageResponseDto);
     }
 }
 
