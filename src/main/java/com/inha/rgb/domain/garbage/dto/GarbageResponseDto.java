@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class GarbageResponseDto {
-    float generalCapacity; // 일반 쓰레기의 용량
     float plasticCapacity; // 플라스틱 쓰레기의 용량
-    float metalCapacity; // 캔 쓰레기의 용량
+    float canCapacity; // 캔 쓰레기의 용량
+    float generalCapacity; // 일반 쓰레기의 용량
 }
