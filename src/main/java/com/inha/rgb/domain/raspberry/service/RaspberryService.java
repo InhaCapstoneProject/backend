@@ -3,6 +3,7 @@ package com.inha.rgb.domain.raspberry.service;
 import com.inha.rgb.domain.raspberry.dto.CapacityResponseDto;
 import com.inha.rgb.domain.video.service.VideoService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.OutputStream;
@@ -10,9 +11,12 @@ import java.io.OutputStream;
 @Service
 @RequiredArgsConstructor
 public class RaspberryService {
+    @Value("${raspberry.ip}")
+    String raspberryIp;
+
     private final VideoService videoService;
     public void streamVideo(OutputStream clientOutputStream){
-        videoService.streamVideo(clientOutputStream);
+        videoService.streamVideo(clientOutputStream,raspberryIp);
     }
     public CapacityResponseDto getCapacity() {
         /*

@@ -10,13 +10,10 @@ import java.io.OutputStream;
 
 @Service
 public class VideoService {
-    @Value("${raspberry.ip}")
-    String raspberryIp;
-
     RestTemplate restTemplate = new RestTemplate();
 
     //라즈베리파이에 api를 요청하여 비디오를 가져온다.
-    public void streamVideo(OutputStream clientOutputStream) {
+    public void streamVideo(OutputStream clientOutputStream,String raspberryIp) {
         String url = String.format("http://%s:8000/api/video/request", raspberryIp);
 
         restTemplate.execute(
