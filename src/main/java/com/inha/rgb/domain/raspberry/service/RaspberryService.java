@@ -1,6 +1,7 @@
 package com.inha.rgb.domain.raspberry.service;
 
-import com.inha.rgb.domain.raspberry.dto.CapacityResponseDto;
+import com.inha.rgb.domain.garbage.dto.GarbageResponseDto;
+import com.inha.rgb.domain.garbage.service.GarbageService;
 import com.inha.rgb.domain.video.service.VideoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,13 +16,14 @@ public class RaspberryService {
     String raspberryIp;
 
     private final VideoService videoService;
+    private final GarbageService garbageService;
+
     public void streamVideo(OutputStream clientOutputStream){
         videoService.streamVideo(clientOutputStream,raspberryIp);
     }
-    public CapacityResponseDto getCapacity() {
-        /*
-         라즈베리파이에 request,response 받는 코드
-         */
-        return new CapacityResponseDto();
+
+    public GarbageResponseDto getCapacity() {
+        GarbageResponseDto garbageResponseDto = garbageService.getGarbageCapacity(raspberryIp);
+        return garbageResponseDto;
     }
 }
