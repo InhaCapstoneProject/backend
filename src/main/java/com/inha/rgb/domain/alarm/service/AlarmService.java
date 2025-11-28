@@ -30,7 +30,6 @@ public class AlarmService {
         pushService.sendToAll(
                 "쓰레기통 경고",
                 savedDocument.getTrashType() +"의 용량은 "+ savedDocument.getCapacity()+" 입니다."
-
         );
         //Log
         log.info("saved alarmDocument, id = {}, trashType = {}, capacity = {}"
