@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.*;
 
 public class AlarmController {
     private final AlarmService alarmService;
-    @Operation(summary = "쓰레기통 교체 알람 저장", description = "라즈베리파이에서 쓰레기통을 교체해야 할 때 발생하는 알람을 MongoDB에 저장합니다.")
+    @Operation(summary = "쓰레기통 교체 알람 저장", description = "라즈베리파이에서 쓰레기통을 교체해야 할 때 발생하는 알람을 MongoDB에 저장후 FE로 푸시알람을 전송합니다.")
     @ApiResponse(responseCode = "201", description = "저장 성공")
-    @PostMapping(value = "/save")
+    @PostMapping(value = "/alert")
     @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity<AlarmResponseDto> alertAlarm(@RequestBody AlarmRequestDto requestDto){
         AlarmResponseDto alarmResponseDto = alarmService.saveAlarm(requestDto);
