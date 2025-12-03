@@ -28,14 +28,7 @@ public class RaspberryService {
 
     public GarbageCapacityResponseDto getCapacity() {
         //실제 라즈베리파이와 통신
-        //GarbageResponseDto garbageResponseDto = garbageService.getGarbageCapacity(raspberryIp);
-
-        //테스트데이터
-        log.info("용량 확인 API 호출");
-        GarbageCapacityResponseDto garbageCapacityResponseDto = new GarbageCapacityResponseDto();
-        garbageCapacityResponseDto.setPlasticCapacity(Float.parseFloat("0.34"));
-        garbageCapacityResponseDto.setCanCapacity(Float.parseFloat("0.52"));
-        garbageCapacityResponseDto.setGeneralCapacity(Float.parseFloat("0.70"));
+        GarbageCapacityResponseDto garbageCapacityResponseDto = garbageService.getGarbageCapacity(raspberryIp);
         return garbageCapacityResponseDto;
     }
 

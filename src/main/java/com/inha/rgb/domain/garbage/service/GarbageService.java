@@ -19,7 +19,6 @@ public class GarbageService {
     private final RestTemplate restTemplate = new RestTemplate();
     private final GarbageClassificationResultRepository garbageClassificationResultRepository;
 
-    @Transactional
     public GarbageCapacityResponseDto getGarbageCapacity(String raspberryIp) {
         String url = String.format("http://%s:8000/api/garbage/capacity", raspberryIp);
 
