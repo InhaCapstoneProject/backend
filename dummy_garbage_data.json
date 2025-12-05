@@ -1,0 +1,702 @@
+[
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_1.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:15:30.123Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_2.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:05:10.456Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_3.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:55:20.789Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_4.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:23:45.101Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_5.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:42:18.212Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_6.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:11:59.313Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_7.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:33:01.414Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_8.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:48:05.515Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_9.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:02:03.616Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_10.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:29:13.717Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_11.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:58:43.818Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_12.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:21:23.919Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_13.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:38:33.020Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_14.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:08:08.121Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_15.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:51:51.222Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_16.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:18:18.323Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_17.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:45:45.424Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_18.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:14:14.525Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_19.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:36:36.626Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_20.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:01:01.727Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_21.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:25:25.828Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_22.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:49:49.929Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_23.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:03:03.030Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_24.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:39:39.131Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_25.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:57:57.232Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_26.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:28:28.333Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_27.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:17:17.434Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_28.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:41:41.535Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_29.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:09:09.636Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_30.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T09:53:53.737Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_31.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:15:30.123Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_32.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:05:10.456Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_33.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:55:20.789Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_34.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:23:45.101Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_35.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:42:18.212Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_36.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:11:59.313Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_37.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:33:01.414Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_38.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:48:05.515Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_39.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:02:03.616Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_40.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:29:13.717Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_41.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:58:43.818Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_42.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:21:23.919Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_43.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:38:33.020Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_44.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:08:08.121Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_45.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:51:51.222Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_46.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:18:18.323Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_47.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:45:45.424Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_48.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:14:14.525Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_49.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:36:36.626Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_50.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:01:01.727Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_51.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:25:25.828Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_52.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:49:49.929Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_53.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:03:03.030Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_54.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:39:39.131Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_55.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:57:57.232Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_56.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:28:28.333Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_57.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:17:17.434Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_58.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:41:41.535Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_59.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:09:09.636Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_60.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:53:53.737Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_61.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:22:22.838Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_62.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:46:46.939Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_63.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:13:13.040Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_64.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:31:31.141Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_65.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:59:59.242Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_66.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:07:07.343Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_67.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:35:35.444Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_68.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:50:50.545Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_69.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:27:27.646Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_70.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T10:40:40.747Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_71.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:15:30.123Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_72.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:05:10.456Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_73.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:55:20.789Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_74.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:23:45.101Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_75.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:42:18.212Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_76.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:11:59.313Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_77.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:33:01.414Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_78.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:48:05.515Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_79.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:02:03.616Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_80.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:29:13.717Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_81.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:58:43.818Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_82.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:21:23.919Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_83.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:38:33.020Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_84.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:08:08.121Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_85.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:51:51.222Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_86.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:18:18.323Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_87.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:45:45.424Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_88.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:14:14.525Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_89.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:36:36.626Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_90.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:01:01.727Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_91.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:25:25.828Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_92.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:49:49.929Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_93.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:03:03.030Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_94.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:39:39.131Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_95.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:57:57.232Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_96.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:28:28.333Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_97.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:17:17.434Z"
+    }
+  },
+  {
+    "classificationResult": "plastic cup",
+    "img": "http://example.com/image_98.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:41:41.535Z"
+    }
+  },
+  {
+    "classificationResult": "general",
+    "img": "http://example.com/image_99.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:09:09.636Z"
+    }
+  },
+  {
+    "classificationResult": "can",
+    "img": "http://example.com/image_100.jpg",
+    "createdAt": {
+      "$date": "2025-12-05T11:53:53.737Z"
+    }
+  }
+]
