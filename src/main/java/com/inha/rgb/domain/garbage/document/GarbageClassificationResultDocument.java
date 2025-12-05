@@ -16,17 +16,26 @@ public class GarbageClassificationResultDocument {
     @Id
     private String id;
 
-    private String classificationResult; //plastic cup, can, general
+    private String classificationResult; // plastic cup, can, general
 
     private String img;
 
     @CreatedDate
     private LocalDateTime createdAt;
 
+    // 분류 결과 상태 (unseen, correct, incorrect)
+    private String state;
+
     @Builder
     public GarbageClassificationResultDocument(String classificationResult, String img) {
         this.classificationResult = classificationResult;
         this.img = img;
+        this.state = "unseen";
+    }
+
+    // 상태 변경 메서드
+    public void updateState(String state) {
+        this.state = state;
     }
 
 }
