@@ -1,0 +1,802 @@
+[
+    {
+        "_id": "1f8dbfbe-08df-4cf2-8d44-3c442efdb7e7",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T17:58:12",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "d1f20b45-0b6e-4e7f-ae56-28f71493cf60",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T00:29:38",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "9c9bf367-8f01-44fd-92aa-b83b6d7a79c3",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T22:13:30",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "6df49dc6-77c9-4819-8430-833454a4dd6a",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T21:12:06",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8d52bda0-e7e7-46f5-8a47-f0ea8152d6f3",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T21:15:44",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "372a0bfb-a7b5-4c93-8c34-ba5126de3c93",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T05:21:23",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "10956106-96a3-4bb0-8c66-a6fa3b9d8825",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T13:04:30",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "a60737bb-1aee-4204-bd73-5906c00e5c10",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T14:50:05",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "de08f6b8-3b24-4f68-8089-da54865f4b9b",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T14:06:05",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8f412c85-e9e4-40c1-91fe-e31a9b6e356f",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T15:38:06",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "ad2a8b57-a88f-42ff-849f-1dae49d3441d",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T14:41:58",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "b6cc4d92-a1e1-40d2-b302-2ad5dd5db31b",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T14:47:31",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "279aaaac-491f-477d-bbb6-65e109ad9a15",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T08:32:07",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "d1b4884f-76e8-441b-8183-33706f6ebe2a",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T03:48:59",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "71270067-d96b-4fb0-88e7-7bf7c20206f2",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T00:58:49",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "a110ec61-a031-4e80-a76b-b8ca30237bff",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T11:35:43",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "daf0575e-77a8-4a13-8495-a4d4c1a0aa0b",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-03T17:49:02",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "3e42ec1d-690a-4c1d-a8bc-687f8ade93ad",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T03:55:40",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "9d955403-e2fc-46cb-bd44-76693cf7c45f",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T21:56:42",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "457755e3-1e2f-40a0-b657-3559b0fb1608",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-05T06:46:44",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "86de6e87-813b-4cdb-b06e-7c35864c6c64",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T23:22:27",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "6e36a39d-1a56-458c-a2b0-67d5c0c1ce1a",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T08:27:53",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "17cfac65-ee0d-4994-87ea-ce885c1cc1c4",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T00:42:57",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "cc5ea177-7682-41df-b609-40cdd0e60b6b",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T01:23:49",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8dedfd54-2421-4405-961b-b3ed5d01710f",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T22:13:34",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "d18e00d7-b8eb-4a1d-92c4-44b8919f8b23",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T08:03:02",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "4ea70bf4-5301-4ab4-899c-f8165e7010d0",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T18:24:08",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "7ee04d62-6ef7-43ca-9c27-2f2dca0b976d",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T14:13:34",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e88d140e-3eda-42f1-8ea6-8dbb5ed2dd2b",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T12:52:18",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "160f7c97-d6b2-4cc6-abaf-3ad5a5c9c34d",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-05T15:44:32",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "c6b93b65-af8a-4029-be28-79d27277237f",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T23:09:06",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "d0bfc9e9-047f-44a4-8ebc-1816e64cc7e5",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T13:47:12",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "dfe89284-ee61-4e50-98e0-e8ba3f8684b0",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T15:20:43",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "28d5885c-e93e-457f-9f06-d0dcfe060633",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T16:57:23",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "1baad5c1-050e-4b31-b3c3-d5ffb6ac14c1",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T01:10:10",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "32f7e1cd-344b-4372-a414-3dbd3a69a82e",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T21:04:32",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "3ced67b1-151a-4fb6-a5c0-721b99235146",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T22:24:55",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "97aabd3d-2ddd-45fc-8d9d-526ffc443fe2",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-05T21:40:34",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "f27c4ff7-8073-4d2e-9a95-51f2e0de32ad",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T22:43:26",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "ec2634e2-71d7-43e9-a8b9-7c62769dcf39",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-03T07:51:43",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "333c63ea-db95-4daf-8963-bf72a6d05a73",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T14:42:16",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "958d7d4e-2b93-4cf4-ae25-17165d178759",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T20:09:43",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "58ba0429-fbc4-4085-8ee2-39915d7eceec",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T18:38:54",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "a516badb-19b5-4ae6-ba86-7739f1b34409",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T18:35:07",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "d75560bd-e389-4a88-8ecc-ac707e1147f7",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T11:52:02",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "cfc23687-8518-4d8c-9fca-dca3024b18a1",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T01:28:57",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e2717df4-da48-46c9-bf5d-c263893fd69a",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T04:13:12",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "fb1a5256-5b7c-45df-840f-c5f83b9db72a",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T19:05:02",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e21d2a74-1333-4d7d-b517-121d64fec673",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T18:49:38",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "48358a43-a048-47c4-b5d0-48421039e4e1",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-03T03:48:23",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "938f2fdc-21bf-472e-aedd-3ce47515392e",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T02:51:01",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "65380bcd-2a12-4b25-ba13-011df2a4dcfd",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-05T08:26:26",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "1990e24f-0300-4369-9ee0-cd1ae4fc9988",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T18:05:32",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "97470c55-175d-4e7b-817e-5d1d47041e16",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-03T04:07:51",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "b055df8e-8f19-4c6f-983e-76a6becea236",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T04:59:19",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8b75ab48-abf4-4aec-8746-74f756ff5e4d",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T11:25:15",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "66b17f52-afb5-4bc5-86a6-c27f98e88590",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T11:30:42",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "50c654c5-6c35-4d02-8d97-04ae802781dc",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T12:32:56",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "91c1d28d-e491-4233-9d2e-023fb84d89eb",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T19:22:41",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e5d79bcf-6310-4d5c-865c-0cb52919b28f",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-05T11:20:56",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "95c0c33f-4cbb-48c3-9ace-8ab110796898",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T17:56:44",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "cdf7217e-bcc2-498b-9a31-0db8d7ad938a",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T01:11:32",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "5726ef2e-1eb4-4f43-abef-3ca63ec697de",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T07:03:15",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "98d6f61a-b40f-4f2d-b4eb-3c0769b4fd1a",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-03T15:28:31",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "a8551a0a-3350-456c-80c1-73046016c249",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T02:35:20",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "0fcdadd9-b870-4fd6-ab75-7e808de7e819",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T04:01:53",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e64a22fe-1b8d-4a1e-b996-297a24926ed7",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T04:36:03",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "0f726425-bf5c-4f25-831d-cd3264cc9204",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T15:05:11",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "f8ec5e4e-063d-45f6-8ab8-64d2d461739e",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T04:52:35",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "58c14f03-7f10-41ec-bb65-1cd8ee3e0cb9",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T18:29:04",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "23dab7f1-f779-47ce-80bf-4721d3fe2ae2",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T08:35:43",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "ba8595fd-5659-43af-a291-eca325857714",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T21:08:31",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "386aaab8-e413-495e-ac8e-0d95a145b47d",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T15:21:56",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "a4c871be-ae24-4d63-b802-74f717ea32c0",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T23:55:08",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "0ecea07e-fe4a-4b6c-9439-1f61575fc1f9",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-05T07:29:07",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "f6adc075-84e3-457e-aa6d-89d23d313faf",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T00:41:13",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "4878f789-a6ff-47b3-981d-aea54bb4a046",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-07T19:25:11",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "6b82eec7-291d-4d26-b6bd-18beb90cd8ea",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T10:30:50",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8953f0b4-ce8c-4bf8-9912-30c921346114",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T02:46:13",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "226f8994-a150-4e24-a033-eebf23afdd51",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T19:52:19",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "86afdfce-2ab5-41dc-a04b-fd2aee1a9e5e",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T07:38:32",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "53905357-80c7-4b7c-865c-dabf88ac55a4",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T10:34:04",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "cc0fcb4e-65a7-45c7-96f4-626fe29f41ea",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T02:16:21",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "bcbcd9d2-b457-43a5-9950-ff5833a59f30",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T12:51:49",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "458e89aa-5834-433b-9ced-28ae63d1bac4",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-01T22:19:20",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "fb9f8ac0-88ab-4c33-877c-a48bb4df0cf0",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T14:15:13",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "b5ecfd61-d486-4993-9ca5-ef0f5ae123db",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T01:30:31",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "537cc899-eaf8-4df2-9b31-1e3550bbc035",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T00:27:08",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "b76c2df7-faaf-4b39-8364-f2af51fb0dca",
+        "classificationResult": "general",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-03T19:00:24",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "d67e3289-3528-4ded-bdd3-d177bb9d16da",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T04:00:55",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "7b325727-3fcf-4a3b-a1ad-b8fd4eae1f9d",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T20:27:26",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e6ff4d93-82d8-4c04-99aa-56f980f0aa05",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T13:58:13",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "fd65b03f-1f0f-4dd5-bf48-e62cf8b1f50c",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T09:43:22",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "bb471705-1551-4a90-8842-87f06b5a6435",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-09T03:27:11",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "de34c0c2-4060-4cad-bf7d-1e8f8ab4da44",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-10T08:04:34",
+        "state": "correct",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8a8214c7-32b9-45a7-b0ea-27b52354e21f",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-02T07:59:21",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "7d192f67-c91a-4fc9-87d4-3ec08be47a93",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T17:17:46",
+        "state": "incorrect",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "8bf6330c-0594-4a20-83cd-7d573757925c",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-08T17:15:10",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "e3045734-5b7a-4054-85cf-998941640b57",
+        "classificationResult": "can",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-04T00:43:45",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    },
+    {
+        "_id": "9d1fb002-e5f3-4dcb-8632-413281d2302f",
+        "classificationResult": "plastic_cup",
+        "img": "dummy_image_base64_string",
+        "createdAt": "2025-12-06T06:15:29",
+        "state": "unseen",
+        "_class": "com.inha.rgb.domain.garbage.document.GarbageClassificationResultDocument"
+    }
+]
