@@ -7,7 +7,7 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDateTime;
+import java.time.Instant;
 
 @Document(collection = "garbage_classification_result")
 @RequiredArgsConstructor
@@ -21,7 +21,7 @@ public class GarbageClassificationResultDocument {
     private String img;
 
     @CreatedDate
-    private LocalDateTime createdAt;
+    private Instant createdAt;
 
     // 분류 결과 상태 (unseen, correct, incorrect)
     private String state;

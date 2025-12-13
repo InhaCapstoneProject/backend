@@ -12,7 +12,7 @@ public class GarbageStatisticsScheduler {
     private final GarbageStatisticsService garbageStatisticsService;
 
     // 매시간 정각에 실행
-    @Scheduled(cron = "0 0 * * * *")
+    @Scheduled(cron = "0 * * * * *")
     public void runHourlyGarbageCalculation() {
         garbageStatisticsService.calculateAndSaveHourlyStatistics();
     }

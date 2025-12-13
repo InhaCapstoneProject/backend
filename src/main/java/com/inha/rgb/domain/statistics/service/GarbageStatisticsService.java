@@ -12,13 +12,11 @@ import org.springframework.stereotype.Service;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -40,6 +38,9 @@ public class GarbageStatisticsService {
         // Calculate target time (previous hour)
         LocalDateTime targetTime = now.minusHours(1);
         calculateHourlyStatistics(targetTime);
+
+        // Also calculate for current hour for immediate feedback
+        calculateHourlyStatistics(now);
     }
 
     public void backfillStatistics(LocalDate startDate, LocalDate endDate) {
@@ -62,20 +63,25 @@ public class GarbageStatisticsService {
                 .orElse(new HourlyGarbageStatisticsDocument(dateString));
 
         // Define time range for the specific hour
-        ZoneId seoulZone = ZoneId.of("Asia/Seoul");
-        Instant startInstant = targetTime.truncatedTo(ChronoUnit.HOURS).atZone(seoulZone).toInstant();
-        Instant endInstant = startInstant.plus(1, ChronoUnit.HOURS);
+        LocalDateTime startDateTime = targetTime.truncatedTo(ChronoUnit.HOURS);
+        LocalDateTime endDateTime = startDateTime.plus(1, ChronoUnit.HOURS);
+
+        // Convert to Instant for repository query
+        Instant startInstant = startDateTime.atZone(java.time.ZoneId.systemDefault()).toInstant();
+        Instant endInstant = endDateTime.atZone(java.time.ZoneId.systemDefault()).toInstant();
 
         // Get garbage from the specific hour
-        List<GarbageClassificationResultDocument> garbageList = garbageRepository.findByCreatedAtBetween(startInstant,
+        // Get garbage from the specific hour
+        List<GarbageClassificationResultDocument> garbageList = garbageRepository.findByCreatedAtBetween(
+                startInstant,
                 endInstant);
 
-        log.info("Calculating statistics for: {} ({} - {})", targetTime, startInstant, endInstant);
+        log.info("Calculating statistics for: {} ({} - {})", targetTime, startDateTime, endDateTime);
         log.info("Found {} garbage items", garbageList.size());
 
         // Group by classification result and count
         Map<String, Long> counts = garbageList.stream()
-                .map(g -> g.getClassificationResult().split("_")[0]) // "plastic_cup" -> "plastic"
+                .map(g -> g.getClassificationResult().toLowerCase().split("_")[0]) // "Plastic_Cup" -> "plastic"
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         // Update the statistics for the specific hour
