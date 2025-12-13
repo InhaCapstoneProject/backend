@@ -9,6 +9,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
@@ -17,20 +18,26 @@ import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBo
 @RestController
 @RequestMapping("/api/raspberry")
 @RequiredArgsConstructor
+@Slf4j
 public class RaspberryController {
     private final RaspberryService raspberryService;
 
-    @Operation(summary = "쓰레기 분류 결과 저장 API",description = "라즈베리파이에서 쓰레기 분류가 끝나면, 결과를 MongoDB에 저장하고, id를 리턴합니다.")
+    @Operation(summary = "쓰레기 분류 결과 저장 API", description = "라즈베리파이에서 쓰레기 분류가 끝나면, 결과를 MongoDB에 저장하고, id를 리턴합니다.")
     @ApiResponse(responseCode = "200", description = "응답 성공")
     @PostMapping("/garbage/save")
-    public ResponseEntity<GarbageSaveResponseDto> saveGarbage(@RequestBody GarbageSaveRequestDto garbageSaveRequestDto){
-        GarbageSaveResponseDto garbageSaveResponseDto = raspberryService.saveClassificationResult(garbageSaveRequestDto);
+    public ResponseEntity<GarbageSaveResponseDto> saveGarbage(
+            @RequestBody GarbageSaveRequestDto garbageSaveRequestDto) {
+        log.info("Saving garbage classification result: {}", garbageSaveRequestDto);
+        GarbageSaveResponseDto garbageSaveResponseDto = raspberryService
+                .saveClassificationResult(garbageSaveRequestDto);
         return ResponseEntity.ok().body(garbageSaveResponseDto);
     }
+
     @Operation(summary = "현재 쓰레기 용량 확인 API", description = "현재 라즈베리파이의 쓰레기통에 용량을 리턴합니다.")
     @ApiResponse(responseCode = "200", description = "응답 성공")
     @GetMapping("/garbage/capacity")
-    public ResponseEntity<GarbageCapacityResponseDto> getGarbageCapacity(){
+    public ResponseEntity<GarbageCapacityResponseDto> getGarbageCapacity() {
+        log.info("Requesting garbage capacity");
         GarbageCapacityResponseDto garbageCapacityResponseDto = raspberryService.getCapacity();
         return ResponseEntity.ok().body(garbageCapacityResponseDto);
     }
@@ -39,6 +46,7 @@ public class RaspberryController {
     @ApiResponse(responseCode = "200", description = "응답 성공")
     @GetMapping("/video/stream")
     public StreamingResponseBody streamVideo(HttpServletResponse response) {
+        log.info("Starting video stream");
         // 1. 응답 헤더 설정 (MJPEG 형식임을 명시)
         response.setContentType("multipart/x-mixed-replace; boundary=frame");
 
@@ -48,4 +56,3 @@ public class RaspberryController {
         };
     }
 }
-

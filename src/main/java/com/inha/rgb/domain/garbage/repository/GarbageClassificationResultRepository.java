@@ -9,8 +9,12 @@ import java.util.List;
 
 @Repository
 public interface GarbageClassificationResultRepository
-        extends MongoRepository<GarbageClassificationResultDocument, String> {
-    List<GarbageClassificationResultDocument> findByCreatedAtBetween(Instant start, Instant end);
+                extends MongoRepository<GarbageClassificationResultDocument, String> {
+        List<GarbageClassificationResultDocument> findByCreatedAtBetween(Instant start, Instant end);
 
-    List<GarbageClassificationResultDocument> findByState(String state);
+        List<GarbageClassificationResultDocument> findByCreatedAtBetweenAndState(Instant start, Instant end,
+                        String state);
+
+        List<GarbageClassificationResultDocument> findByState(String state);
+
 }

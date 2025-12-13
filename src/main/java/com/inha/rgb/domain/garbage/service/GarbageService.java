@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import com.inha.rgb.global.exception.GarbageNotFoundException;
 import org.springframework.web.client.RestTemplate;
 
 @AllArgsConstructor
@@ -54,11 +55,21 @@ public class GarbageService {
         return garbageClassificationResultRepository.findByState("unseen");
     }
 
+    // 정답 쓰레기 목록 조회
+    public java.util.List<GarbageClassificationResultDocument> getCorrectGarbage() {
+        return garbageClassificationResultRepository.findByState("correct");
+    }
+
+    // 오답 쓰레기 목록 조회
+    public java.util.List<GarbageClassificationResultDocument> getIncorrectGarbage() {
+        return garbageClassificationResultRepository.findByState("incorrect");
+    }
+
     // 쓰레기 상태 업데이트 (정답/오답/미확인)
     @Transactional
     public void updateGarbageState(String id, String state) {
         GarbageClassificationResultDocument garbage = garbageClassificationResultRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Garbage not found with id: " + id));
+                .orElseThrow(() -> new GarbageNotFoundException(id));
 
         garbage.updateState(state);
         garbageClassificationResultRepository.save(garbage);
